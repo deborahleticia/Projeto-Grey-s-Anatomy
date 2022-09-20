@@ -1,0 +1,82 @@
+body{
+    background-color: bisque;
+}
+#principal{
+    width: 800px;
+    background-color:crimson;
+
+    border-width: 13px;
+    border-style:solid;
+    border-color:darkblue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 7px 5px darkolivegreen;
+}
+#topo{
+    background-color:darksalmon;
+    color:black;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px cornflowerblue;
+}
+h1{
+    color:gray;
+    font-size: 2.5rem; /* 2.5*16=40 */
+    text-align: center;
+    font-family:'Pangolin', cursive, Arial;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-shadow: 2px 1.5px 2px burlywood;
+}
+h2{
+    font-size: 1.5rem; /* 1.5*16=24 */
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.postagem{
+    background-color: cyan;
+    margin: 45px auto 45px auto;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-top: 12px;
+    padding-right: 16px;
+    border-width: 8px;
+    border-style: solid;
+    border-color:rgb(109, 30, 255);
+    border-radius: 1rem;
+    box-shadow: 2px 4px 2px beige;
+    width: 700px;
+}
+.titulopost{
+    color:darksalmon;
+    font-size: 1.5rem; /* 1.5*16=24 */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1px auto 1px auto;
+}
+p{
+    margin: 2.5px;
+    font-size: 1rem; /* 1*16=16 */
+    line-height: 1.2rem;
+    text-indent: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#rodape{
+    background-color:darkolivegreen;
+    color:darksalmon;
+    font-size: 2rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    border-top: 5px dashed darkslateblue;
+    border-width: 9px;
+    
+}
+ul{
+    list-style-image: url("marcadorcc.png");
+    list-style-position: inside;
+}
+
